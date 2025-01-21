@@ -1,0 +1,12 @@
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: JJGGu/deploy-illa-manually
+DockerComposeEnvPath: .env
+RegionId: cn-hangzhou
+CustomParameters: ''
+DockerComposeYamlPath: docker-compose/docker-compose.yaml
+Owner: JJGGu
+Branch: main
+Platform: github
